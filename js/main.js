@@ -13,7 +13,7 @@ function MainModule(listingsID = "#listings") {
     const amenitiesHTML = amenities
       .map((amenity) => `<span class="amenity">${amenity}</span>`)
       .join("");
-    return `<div class="col-4">
+    return `<div class="col-12 col-md-6 col-lg-4">
   <div class="listing card">
     <img
   src="${listing.picture_url}"
